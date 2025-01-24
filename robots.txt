@@ -1,0 +1,15 @@
+
+User-agent: *
+
+# Bloquer l'accès au dossier d'administration
+Disallow: /admin/
+
+# Bloquer l'accès au dossier payment
+Disallow: /payment/
+Disallow: /payment/index.php
+
+# Autoriser l'accès à tout le reste du site
+Allow: /
+
+# Indiquer l'emplacement du fichier sitemap
+Sitemap: https://www.ambatomilo.com/ambatomilo.map.xml

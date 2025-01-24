@@ -1,0 +1,428 @@
+@media (max-width:576px) {
+    .lTexte{
+        font-size: small;
+        color: black;
+    }
+    .nosCuisine-bg{
+        background: url(/www.ambatomilo.com/Assets/Images/Cuisine/cuisineM.webp) cover center;
+    }
+    .a-color{
+        font-size: xx-small
+    }
+    .a-color-l{
+        font-size: xx-small;
+    }
+    .bg-image{
+        background-image: url(/Assets/Images/Ambatomilo/acceuilM.webp);
+        background-size: cover !important;
+        height: 40vh;
+    }  
+    .bg-image1{
+        background-size:cover ;
+        height: 40vh;
+    }  
+    .bg-image2{
+        background-size:cover ;
+        height: 40vh;
+    }  
+    .bg-image3{
+        background-image: url(/Assets/Images/Logement/sunsetM.webp);
+        background-size: auto 100%;
+        height: 40vh;
+    }  
+    .bg-image4{
+        height: 40vh;
+    } 
+    .bg-image5{
+        background-size: cover;
+        height: 40vh;
+    } 
+    .d-mbl-none{
+        display: none;
+    }
+    .titre{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:2.5em;
+    }
+    .titre1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1.6em;
+        font-weight: bolder;
+    }
+    .stl{
+        font-size: 1.3em;
+    }
+    .pr{
+        font-size: 1em;
+    }
+    .nv{
+        font-size: 0.5em;
+    }
+    .nv1{
+        font-size: 0.8em;
+    }
+    .iconFf{
+        width: 55%;
+        height: 55%;
+    }
+    .iconF{
+        width: 60%;
+        height: 60%;
+    }
+    .iconH{
+        width: 100%;
+        height: 100%;
+    }
+    p{
+        font-size: x-small;
+    }
+    h2{
+        font-size: 1.1em;
+    }
+    h4{
+        font-size: large;
+    }
+    h5{
+        font-size: 1em;
+    }
+    .bgVoyage{
+        height: 30vh;
+    }
+    .ts{
+        font-size: 2.2em;
+    }
+    .ts1{
+        text-shadow: 1px 3px 10px rgba(0, 0, 0, 0.699);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5em;
+    }
+    .ts2{
+        text-shadow: 1px 3px 10px rgba(0, 0, 0, 0.699);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.3em;
+    }
+    .ts3{
+        text-shadow: 1px 3px 10px rgb(0, 0, 0);
+    }
+    .st{
+        font-size: large;
+        font-weight: lighter;
+
+    }
+    .d1{
+        font-size: x-small;
+        font-weight: bold;
+    }
+    .boxeIMG{
+        height: 30vh;
+    }
+    .Bar-1{
+        background-position:18%;
+    }
+    .h4-r{
+        font-size: small;
+    }
+    .ourstory-bg-m{
+        background: url(/Assets/Images/Activite/pirogueM.webp) no-repeat center cover;
+    }
+    .galerie-bg-m{
+        background: url(/Assets/Images/Activite/plongM.webp) center;
+        background-size:auto 100%;
+    }  
+    .contact-bg{
+        background: url(/Assets/Images/Contact/contactM.webp) center;
+        background-size: auto 100%;
+    }
+    .slide-container{
+        background: url('/Assets/Images/Logement/familiale/4M.webp') center no-repeat;
+        background-size: cover;
+    }
+    .slide-container1{
+        background: url('/Assets/Images/Logement/double/4M.webp') center no-repeat;
+        background-size: cover;
+    }
+    .continue{
+        font-size: small;
+    }
+    /****** Ranohira ******/
+    .titleRanohira1{
+        font-family: ranohira;
+        font-size: 1.1em;
+    }
+    .bienvenu{
+        font-size: 1.1em;
+    }
+    .h5-r{
+        font-size: small;
+    }
+
+
+}
+
+@media only screen and (max-width:768px) and (min-width:577px){
+    .extrait{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: small;
+        font-weight: 100;
+    }
+    .ts{
+        font-size: 2.9em;
+    }
+    .logo{
+        height: 80px;
+        width: 80px;
+    }
+    .titre{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:2.5em;
+    }
+    .bg-image{
+        height: 45vh;
+        background-size: cover;
+    }  
+    .bg-image1{
+        height: 45vh;
+    }  
+    .bg-image2{
+        height: 45vh;
+    }  
+    .bg-image3{
+        height: 45vh;
+    }  
+    .bg-image4{
+        height: 45vh;
+    }  
+    .bg-image5{
+        background-size: cover;
+        height: 45vh;
+    }  
+    .margin{
+        margin-top: -15vh;
+    }
+    .aScale{
+        animation: v1 infinite 6s ease-in-out ;
+    }
+    .nv{
+        font-size: small;
+    }
+    .st{
+        font-size: x-large;
+        font-weight: 900;
+    }
+    .d1{
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .circuit{
+        font-weight: 500;
+    }
+    @keyframes v1 {
+        0%{
+            scale: 1;
+            border-radius: 0;
+        }
+        50%{
+            scale: 0.9;
+            border-radius: 2em;
+        }
+        100%{
+            scale: 0.8;
+            border-radius: 3em;
+        }
+    } 
+    .boxeIMG{
+        height: 45vh;
+    }
+    /******* Ranohira *******/
+    .titleRanohira1{
+        font-family: ranohira;
+        font-size: 2.5em;
+    }
+    .bienvenu{
+        font-size: 2.5em;
+    }
+}
+@media only screen and (max-width:1024px) and (min-width:769px){
+    .ts{
+        font-size: 3em;
+    }
+    .bg-image{
+        height: 65vh;
+        background-size: cover;
+    }  
+    .bg-image1{
+        height: 65vh;
+    }  
+    .bg-image2{
+        height: 65vh;
+    }  
+    .bg-image3{
+        height: 65vh;
+    } 
+    .bg-image4{
+        height: 65vh;
+    } 
+    .bg-image5{
+        background-size: cover;
+        height: 65vh;
+    } 
+    .nv{
+        font-size: 1.05em;
+    }
+    .st{
+        font-size: x-large;
+        font-weight: 900;
+    }
+    .d1{
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .circuit{
+        font-weight: 500;
+    }
+    .boxeIMG{
+        height: 70%;
+    }
+    .size{
+        font-size: larger;
+    }
+    /******* Ranohira *******/
+    .titleRanohira1{
+        font-family: ranohira;
+        font-size: 3em;
+    }
+    .bienvenu{
+        font-size: 3em;
+    }
+}
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+    .bg-image{
+        height: 75vh;
+        background-size: cover;
+    }  
+    .bg-image1{
+        height: 75vh;
+    }  
+    .bg-image2{
+        height: 75vh;
+    }
+    .bg-image3{
+        height: 85vh;
+    } 
+    .bg-image4{
+        background-size: 100vw 110vh;
+        height: 75vh;
+    }
+    .bg-image5{
+        background-size: cover;
+        height: 75vh;
+    }
+    .margin{
+        margin-top: -30vh;
+    }
+    .st{
+        font-size: x-large;
+        font-weight: 900;
+    }
+    .d1{
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .circuit{
+        font-weight: 500;
+    }
+    .boxeIMG{
+        height: 48vh;
+    }
+}
+@media only screen and (min-width:1441px) and (max-width:1920px){
+    .bg-image{
+        height: 75vh;
+    }  
+    .bg-image1{
+        height: 95vh;
+    }  
+    .bg-image2{
+        height: 95vh;
+    }  
+    .bg-image3{
+        height: 95vh;
+    } 
+    .bg-image4{
+        background-size: 100vw 110vh;
+        height: 75vh;
+    }
+    .bg-image5{
+        background-size: cover;
+        height: 75vh;
+    }
+    .pr{
+        font-size: 1.5em;
+    }
+    .margin{
+        margin-top: -30vh;
+    }
+    .nv{
+        font-size: larger;
+    }
+    .st{
+        font-size: x-large;
+        font-weight: 900;
+    }
+    .d1{
+        font-size: large;
+        font-weight: bold;
+    }
+    .circuit{
+        font-weight: bold;
+    }
+}
+@media only screen and (min-width:1921px) and (max-width:2560px){
+    .bg-image{
+        height: 105vh;
+    }  
+    .bg-image1{
+        height: 105vh;
+    }  
+    .bg-image2{
+        height: 115vh;
+    }  
+    .bg-image3{
+        height: 115vh;
+    } 
+    .bg-image4{
+        height: 105vh;
+    }
+    .bg-image4{
+        height: 105vh;
+    }
+    .bg-imag5{
+        background: url(/www.ambatomilo.com/Assets/Images/Ranohira/ranohira.webp);
+        background-size: cover;
+        height: 105vh;
+    }
+    .margin{
+        margin-top: -40vh;
+    }
+    .nv{
+        font-size: larger;
+    }
+    .st{
+        font-size: x-large;
+        font-weight: 900;
+    }
+    .d1{
+        font-size: large;
+        font-weight: bold;
+    }
+    .circuit{
+        font-weight: bold;
+    }
+}
+
+/* SPECIALE SCREEN RESOLUTION */
+@media screen and (max-height:768px) and (min-height:600px) and (max-width:1366px) and (min-width:1360px)  {
+    .bg-image3{
+        height: 95vh;
+    } 
+}

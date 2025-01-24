@@ -1,0 +1,1273 @@
+/************************************************************************************* Accueil **************************************************************************/
+.bg-image{
+    background: url(../assets/acceuil.webp) no-repeat;
+    background-size:cover;
+    background-position: center;
+/*     height: 85vh; */
+}
+caption{
+    margin-top: -5%;
+}
+.titre1{
+    text-shadow: 1px 1px 15px black;
+}
+.titre2{
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.438);
+}
+.logo{
+    width: 115px;
+    height: 115px;
+}
+.titre{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:4em;
+}
+.soustitre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1em;
+}
+.extrait{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1.2em;
+text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.438);
+}
+.liste{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.2em;
+}
+.nave{
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+}
+.nave-bg1{
+    background: linear-gradient(rgba(0, 0, 0, 0.671),rgba(255, 255, 255, 0));
+}
+.header-bg{
+    background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.171),rgb(255, 255, 255));
+}
+.galerie-bg{
+    background-image: url(./Assets/Images/Activite/plong.webp);
+    background-size: cover;
+    background-position: center;
+}
+/* .galerie-bg{
+    background-image: url(./Assets/Images/Ambatomilo/galerie.webp);
+    background-size: cover;
+    background-position: 60%;
+} */
+.ourstory-bg{
+    background: url(./Assets/Images/Activite/pirogue.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.ourstory-bg-m{
+    background: url(./Assets/Images/Activite/pirogue.webp) no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.nosCuisine-bg{
+    background-image: url(./Assets/Images/Cuisine/cuisine.webp);
+    background-size: cover;
+    background-position: center;
+}
+.contact-bg{
+    background:url(./Assets/Images/Contact/contact.webp);
+    background-size: cover;
+    background-position: center;
+}
+.footer-bg{
+    background-color:rgba(2, 2, 3, 0.897);
+}
+.icons-color{
+    fill: cornsilk;
+}
+.tblack{
+    color: black;
+}
+.tblack:hover{
+    color: black;
+}
+.t-unstylled:hover{
+    color: white;
+}
+.btnscale{
+    transition: scale 1s;
+}
+.btnscale:hover{
+    scale: 1.1;
+}
+.bar > li:hover{
+    transition: all 1s ease-in-out;
+    scale: 1.2;
+}
+.a-color{
+    color: 	black;
+}
+.a-color:hover{
+    transition: all 1s ease-in-out;
+    color: 	#92d2f9;
+}
+.a-color-l{
+    transition: all 1s ease-in-out;
+    color: 	black;
+}
+.a-color-l:hover{
+    transition: all 1s ease-in-out;
+    color: 	#ff5a5f;
+}
+.a-color-a{
+    transition: all 1s ease-in-out;
+    color: 	white;
+}
+.a-color-a:hover{
+    transition: all 1s ease-in-out;
+    color: 	#92d2f9;
+}
+.border-bottom-left{
+    border-bottom-left-radius:50px ;
+}
+.border-bottom-right{
+    border-bottom-right-radius: 50px;
+}
+
+
+/************************************************************************************* Services et activité **************************************************************************/
+.bg-image1{
+    background-image: url(./Assets/Images/Activite/bg.webp);
+    background-size: cover;
+    background-position: bottom;
+
+}
+.margin{
+    margin-top: -20vh;
+}
+.margin1{
+    margin-top: -50px;
+}
+/************************************************************************************ MANJABOKE EXCURSION  ************************************************************************************/
+.bg-animation{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.534);
+}
+.bg-animation:hover{
+    transition: all 1s;
+    scale: 1.1;
+    animation: bg 7s 1s infinite;
+    box-shadow: 0 0;
+    border-radius: 0 0 0 0;
+}
+.bg-animation:hover .textshadow{
+    transition: all 1s;
+    scale: 0.8;
+    opacity: 0;
+}
+@keyframes bg {
+    0%{
+        background-image: url(./Assets/Images/Activite/Manajaboake/Manjaboake1.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Activite/Manajaboake/Manjaboake.webp);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Activite/Manajaboake/Manjaboake1.webp);
+        background-position: center;
+        background-size: cover;
+    }
+}
+.bg-animationM{
+    animation: bgm 10s infinite;
+}
+@keyframes bgm {
+    0%{
+        background-image: url(./Assets/Images/baobabs-bg.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(./Assets/Images/Baobab1.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Charette.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./Assets/Images/Baobab.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/baobabs-bg.jpg);
+        background-size: cover;
+    }
+}
+/************************************************************************************ MANJABOKE EXCURSION  ************************************************************************************/
+/************************************************************************************ QUAD et MOTO BACKGROUND  ************************************************************************************/
+
+.bg1-animation{
+    box-shadow: 8px 10px 30px;
+    transition: scale 1s ease-in-out;
+    animation-timing-function: ease-in;
+}
+.bg1-animation:hover{
+    scale: 1.2;
+    animation: bg1 8s 1s forwards;
+    box-shadow: 8px 10px 40px 0px;
+}
+@keyframes bg1 {
+    0%{
+        background-image: url(./Assets/Images/Quad.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Quad\ 1.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./Assets/Images/Moto.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Quad\ 2.jpg);
+        background-size: cover;
+    }
+}
+.bg1-animationM{
+    animation: bg1m 10s infinite;
+}
+@keyframes bg1m {
+    0%{
+        background-image: url(./Assets/Images/Quad.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(./Assets/Images/Quad\ 1.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Moto.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./Assets/Images/Quad\ 2.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Quad.jpg);
+        background-size: cover;
+    }
+}
+/************************************************************************************ QUAD et MOTO BACKGROUND  ************************************************************************************/
+/************************************************************************************ VISITE L'ÎLE ROCHEUSE MOBILE  ************************************************************************************/
+.bg2-animationM{
+    background-image: url(./Assets/Images/Activite/Manajaboake/Manjaboake1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.bg2-animationM:hover{
+    transition: all 1s;
+    scale: 1.1;
+    border-radius: 0;
+    animation: bg2m 10s infinite;
+}
+.bg2-animationM:hover .ts1{
+    transition: all 1s;
+    opacity: 0;
+}
+@keyframes bg2m {
+    0%{
+        background-image: url(./Assets/Images/Activite/Manajaboake/Manjaboake1.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Activite/Manajaboake/Manjaboake.webp);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Activite/Manajaboake/Manjaboake1.webp);
+        background-position: center;
+        background-size: cover;
+    }
+}
+/************************************************************************************ VISITE L'ÎLE ROCHEUSE MOBILE  ************************************************************************************/
+/************************************************************************************ PÊCHE DIURNE AVEC LES PÊCHEUR LOCAUX ************************************************************************************/
+.bg3-animation{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.534);
+}
+.bg3-animation:hover{
+    transition: all 1s;
+    scale: 1.1;
+    animation: bg3 7s 1s forwards;
+    box-shadow: 0 0;
+    border-radius: 0;
+}
+.bg3-animation:hover .textshadow{
+    transition: all 1s;
+    scale: 0.8;
+    opacity: 0;
+}
+@keyframes bg3 {
+    0%{
+        background-image: url(./Assets/Images/Activite/Pêcheur/pêcheur1.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Activite/Pêcheur/pirogue.webp);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Activite/Pêcheur/pêcheur1.webp);
+        background-position: center;
+        background-size: cover;
+    }
+}
+.bg3-animationM{
+    background-image: url(./Assets/Images/Activite/Pêcheur/pêcheur1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.bg3-animationM:hover{
+    transition: all 1s;
+    scale: 1.1;
+    border-radius: 0;
+    animation: bg3m 10s infinite;
+}
+.bg3-animationM:hover .ts1{
+    transition: all 1s;
+    opacity: 0;
+}
+@keyframes bg3m {
+    0%{
+        background-image: url(./Assets/Images/Activite/Pêcheur/pêcheur1.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Activite/Pêcheur/pirogue.webp);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Activite/Pêcheur/pêcheur1.webp);
+        background-position: center;
+        background-size: cover;
+    }
+}
+/************************************************************************************ PÊCHE DIURNE AVEC LES PÊCHEUR LOCAUX ************************************************************************************/
+/************************************************************************************ SNORKELING DANS LE CORAIL ************************************************************************************/
+.bg5-animation{
+    box-shadow: 8px 10px 30px;
+    transition: scale 1s ease-in-out;
+}
+.bg5-animation:hover{
+    scale: 1.2;
+    animation: bg5 8s 1s forwards;
+    box-shadow: 8px 10px 40px 0px;
+}
+@keyframes bg5 {
+    0%{
+        background-image: url(./Assets/Images/Out\ the\ corail.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/In\ the\ corail\ 2.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./Assets/Images/In\ the\ corail.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/In\ the\ corail\ 1.jpg);
+        background-size: cover;
+    }
+}
+.bg5-animationM{
+    animation: bg5m 10s infinite;
+}
+@keyframes bg5m {
+    0%{
+        background-image: url(./Assets/Images/Out\ the\ corail.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(./Assets/Images/In\ the\ corail\ 2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/In\ the\ corail.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./Assets/Images/In\ the\ corail\ 1.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Out\ the\ corail.jpg);
+        background-size: cover;
+    }
+}
+/************************************************************************************ SNORKELING DANS LE CORAIL ************************************************************************************/
+/************************************************************************************ PLONGÉE ET ACTIVITÉE NAUTIQUES ************************************************************************************/
+.bg6-animation{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.534);
+}
+.bg6-animation:hover{
+    transition: all 1s;
+    scale: 1.1;
+    animation: bg6 10s 1s infinite;
+    box-shadow: 0 0;
+    border-radius: 0;
+}
+.bg6-animation:hover .textshadow{
+    transition: all 1s;
+    opacity: 0;
+}
+@keyframes bg6 {
+    0%{
+        background-image: url(./Assets/Images/Activite/Plongé/plonge6.webp);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(./Assets/Images/Activite/Plongé/plonge1.webp);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Activite/Plongé/plonge3.webp);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./Assets/Images/Activite/Plongé/plonge7.webp);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Activite/Plongé/plonge6.webp);
+        background-size: cover;
+    }
+}
+.bg6-animationM{
+    background-image: url(./Assets/Images/Activite/Plongé/plonge6.webp);
+    background-size: cover;
+}
+.bg6-animationM:hover{
+    transition: all 1s;
+    scale: 1.1;
+    border-radius: 0;
+    animation: bg6m 10s infinite;
+}
+.bg6-animationM:hover .ts1{
+    transition: all 1s;
+    opacity: 0;
+}
+@keyframes bg6m {
+    0%{
+        background-image: url(./Assets/Images/Activite/Plongé/plonge6.webp);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(./Assets/Images/Activite/Plongé/plonge1.webp);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Activite/Plongé/plonge3.webp);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./Assets/Images/Activite/Plongé/plonge7.webp);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Activite/Plongé/plonge6.webp);
+        background-size: cover;
+    }
+}
+/************************************************************************************ PLONGÉE ET ACTIVITÉE NAUTIQUES ************************************************************************************/
+.radius-top{
+    border-radius: 50px 50px 0 0;
+}
+.radius{
+    border-radius: 30px;
+}
+.manajaboake-bg{
+    background-image: url(./Assets/Images/Activite/Manajaboake/Manjaboake1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.Quad-bg{
+    background-image: url(./Assets/Images/Quad.jpg);
+    background-size: cover;
+}
+.Visite-bg{
+    background-image: url(./Assets/Images/Pirogue.jpg);
+    background-size: cover;
+}
+.Pêche-bg{
+    background-image: url(./Assets/Images/Activite/Pêcheur/pecheur.webp);
+    background-position: center;
+    background-size: cover;
+}
+.Snokerling-bg{
+    background-image: url(./Assets/Images/Out\ the\ corail.jpg);
+    background-size: cover;
+}
+.Plongé-bg{
+    background-image: url(./Assets/Images/Activite/Plongé/plonge6.webp);
+    background-position: center;
+    background-size: cover;
+}
+.Resto-bg{
+    animation: bg7 10s infinite;
+}
+.Bar-1{
+    background-image: url(./Assets/Images/Resto/bar/bar5.webp);
+    background-size: cover;
+    background-position:left;
+}
+.Bar-2{
+    background-image: url(./Assets/Images/Resto/bar/bar13.webp);
+    background-size: cover;
+    background-position:center;
+}
+.Bar-2:hover{
+    transition: all 1s;
+    animation: bar 9s infinite ease-in-out;
+}
+@keyframes bg7 {
+    0% {
+     background-image: url(./Assets/Images/Resto/bar/bar3.webp);
+     background-size: cover;
+     background-position:center;
+    }
+    50%{
+     background-image: url(./Assets/Images/Resto/cuisine/c5.webp);
+     background-size: cover;
+     background-position:center;
+    }
+    100% {
+        background-image: url(./Assets/Images/Resto/bar/bar3.webp);
+        background-size: cover;
+        background-position:center;
+       }
+}
+@keyframes bar {
+    0%{
+     background-image: url(./Assets/Images/Resto/bar/bar12.webp);
+     background-size: cover;
+     background-position:center;
+    }
+    33.5%{
+     background-image: url(./Assets/Images/Resto/bar/bar11.webp);
+     background-size: cover;
+     background-position:center;
+    }
+    67%{
+     background-image: url(./Assets/Images/Resto/bar/bar10.webp);
+     background-size: cover;
+     background-position:center;
+    }
+    100%{
+    background-image: url(./Assets/Images/Resto/bar/bar12.webp);
+    background-size: cover;
+    background-position:center;
+    }
+}
+/************************************************************************************ RESTO IMG ************************************************************************************/
+.Resto-bg1{
+    background-image: url(./Assets/Images/Resto/2.webp);
+    background-position: center;
+    background-size: cover; 
+}
+.Resto-bg1:hover{
+    transition: all 1s;
+    background-image: url(./Assets/Images/Resto/3.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.Resto-bg2{
+    background-image: url(./Assets/Images/Resto/bar/bar9.webp);
+    background-position: center;
+    background-size: cover;
+}
+.Resto-bg3{
+    background-image: url(./Assets/Images/Resto3.jpg);
+    background-size: cover;
+}
+.Resto-bg4{
+    background-image: url(./Assets/Images/Resto/4.webp);
+    background-size: cover;
+}
+.Resto-bg4:hover{
+    transition: all 1s;
+    background-image: url(./Assets/Images/Resto/5.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.Resto-bg5{
+    animation: restoBg5 10s infinite;
+}
+@keyframes restoBg5 {
+    0%{
+        background-image: url(./Assets/Images/Resto/bar/bar16.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    25%{
+        background-image: url(./Assets/Images/Resto/bar/bar7.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Resto/bar/bar8.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./Assets/Images/Resto/bar/bar9.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Resto/bar/bar16.webp);
+        background-position: center;
+        background-size: cover;
+    }
+}
+.sh-1{
+    box-shadow: 8px 10px 30px;
+}
+.btnscale1{
+    transition: all 1s;
+}
+
+.btnscale1:hover{
+    scale: 1.1;
+    box-shadow: 3px 3px 50px;
+    border-radius: 25px;
+}
+#textTitle{
+    animation: txt 10s infinite alternate;
+}
+@keyframes txt {
+    0%{
+        color: white;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+        background-color: rgba(255, 255, 255, 0);
+    }
+    50%{
+        color: black;
+        background-color: rgba(255, 255, 255, 0.432);
+    }
+    100%{
+        color: white;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+/************************************************************************************ RESTO IMG ************************************************************************************/
+/************************************************************************************ DISPLAY ************************************************************************************/
+.show{
+    animation: opacity 4s ease-in-out;
+}
+@keyframes opacity {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/************************************************************************************ DISPLAY ************************************************************************************/
+/************************************************************************************ CUISINE ************************************************************************************/
+
+.cuisine-bg{
+    animation: bg-cuisine 10s infinite;
+}
+@keyframes bg-cuisine {
+    0%{
+        background-image: url(./Assets/Images/Resto/cuisine/c4.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    25%{
+        background-image: url(./Assets/Images/Resto/cuisine/c3.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Resto/cuisine/c2.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./Assets/Images/Resto/cuisine/c8.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Resto/cuisine/c4.webp);
+        background-position: center;
+        background-size: cover;
+    }
+}
+.italian{
+    background-image: url(./Assets/Images/cuisine-italian.jpg);
+    background-size: cover;
+}
+.roumaine{
+    background-image: url(./Assets/Images/cuisine-Roumaine.jpg);
+    background-size: cover;
+}
+.international{
+    background-image: url(./Assets/Images/Resto/cuisine/cuisine.webp);
+    background-size: cover;
+}
+.international:hover{
+    transition: all 1s;
+    scale: 1.1;
+}
+.locale{
+    background-image: url(./Assets/Images/Resto/cuisine/c1.webp);
+    background-position: bottom;
+    background-size: cover;
+}
+.locale:hover{
+    transition: all 1s;
+    scale: 1.1;
+}
+.opa-black{
+    transition: all 2s;
+}
+.opa-black:hover{
+    background: black;
+    color: white;
+}
+.opa-black:hover .scale{
+    transition: all 2s ; 
+    scale: 1.1;
+}
+.scale1:hover{
+    transition: all 1s;
+    scale: 1.1;
+}
+.scale1:hover .stl{
+    transition: all 1s;
+    opacity: 0;
+}
+.titreCuisine{
+    font-size: small;
+}
+.description{
+    font-size: xx-small;
+}
+/************************************************************************************ CUISINE ************************************************************************************/
+/************************************************************************************ LOGEMENT ************************************************************************************/
+.bg-image3{
+    background-image: url(./Assets/Images/Logement/sunset.webp);
+    background-size: 100vw 100%;
+    height: 85vh;
+
+}
+.bungalow{
+    background-image: url(./Assets/Images/Bungalow.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bungalow1{
+    animation: bungalowDouble 15s ease-in-out infinite; 
+}
+.bungalow2{
+    animation: bungalowFamiliale 15s ease-in-out infinite; 
+}
+.bungalow1s{
+    animation: bungalowDouble1s 2s ease-in-out forwards;
+}
+@keyframes bungalowDouble1s {
+
+    0%{
+        background-image: url(./Assets/Images/Logement/bg1.webp);
+        background-size: cover;
+        background-position: center;
+        opacity: 0;
+    }
+    50%{
+        background-image: rgba(255, 255, 255, 0.411);
+        background-size: cover;
+        background-position: center;
+        opacity: 0.5;
+    }
+    100%{
+        background-image: url(./Assets/Images/Logement/bg1.webp);
+        background-size: cover;
+        background-position: center;
+        opacity: 1;
+    }
+}
+@keyframes bungalowDouble {
+    0%{
+        background-image: url(./Assets/Images/Logement/bg1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    20%{
+        background-image: url(./Assets/Images/Logement/double/2.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    40%{
+        background-image: url(./Assets/Images/Logement/double/3.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    60%{
+        background-image: url(./Assets/Images/Logement/double/4.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    80%{
+        background-image: url(./Assets/Images/Logement/double/1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    100%{
+        background-image: url(./Assets/Images/Logement/bg1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+}
+@keyframes bungalowFamiliale {
+    0%{
+        background-image: url(./Assets/Images/Logement/bg1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    20%{
+        background-image: url(./Assets/Images/Logement/familiale/1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    40%{
+        background-image: url(./Assets/Images/Logement/familiale/2.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    60%{
+        background-image: url(./Assets/Images/Logement/familiale/3.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    80%{
+        background-image: url(./Assets/Images/Logement/familiale/4.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    100%{
+        background-image: url(./Assets/Images/Logement/bg1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.bm-vert{
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
+}
+.boxeShadow{
+    box-shadow: 0px 3px 8px black;
+
+}
+
+.blur{
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+}
+.blur1{
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 5vh solid transparent;
+    border-left: 5vh solid white;
+    border-bottom: 5vh solid transparent; /* Couleur et hauteur du triangle */
+}
+.triangle1 {
+    width: 0;
+    height: 0;
+    border-top: 2vh solid transparent;
+    border-left: 2vh solid white;
+    border-bottom: 2vh solid transparent; /* Couleur et hauteur du triangle */
+}
+.ul-B> li{
+    font-size: small;
+}
+.ul-equipement > li{
+    font-size: x-small;
+}
+.w-shadow{
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.425);
+}
+.overplay:hover{
+    transition: all 1s ease-in-out;
+    scale: 110%;
+    border-radius: 0;
+}
+.p-6{
+    padding: 1.5rem;
+  }
+.p-7{
+    transition: all 1s ease-in-out;
+    padding: 0 !important;
+  }
+.r-1{
+    transition: all 1s ease-in-out;
+    border-radius: 0 !important;
+}
+.margin2{
+    padding:1.5rem ;
+}
+.margin2:hover{
+    transition: all 1s ease-in-out;
+    padding:0 ;
+    border-radius: 0;
+}
+.visible{
+    transition: all 1s ease-in-out;
+    visibility: visible;
+}
+.textshadow1{
+    color: black;
+    transition: all 1s;
+}
+.textshadow1:hover{
+    color: white;
+    background: black;
+}
+/* MOBILE SLIDER */
+.slide-container{
+    background: url('/Assets/Images/Logement/familiale/4.webp') center no-repeat;
+    background-size: cover;
+}
+.slide-container1{
+    background: url('/Assets/Images/Logement/double/4.webp') center no-repeat;
+    background-size: cover;
+}
+.container-image{
+    opacity: 0;
+}
+.container-image1{
+    opacity: 0;
+}
+.slide-container:hover .container-image{
+    transition: all 1s ease-in-out;
+    background: transparent;
+    backdrop-filter: blur(1px);
+    opacity: 1;
+}
+
+.slide-container1:hover .container-image1{
+    transition: all 1s ease-in-out;
+    opacity: 1;
+    background: transparent;
+    backdrop-filter: blur(1px);
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.slide-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 2em;
+    padding: 1.5rem;
+}
+
+.image-container:hover .slide-image  {
+    transition: all 0.5s ease-in-out;
+    scale: 1.1;
+    padding: 0;
+    border-radius: 0; /* Zoom effect on hover */
+}
+
+/* Simple fade-in animation */
+.slide-image {
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+/************************************************************************************ LOGEMENT ************************************************************************************/
+/************************************************************************************ VOYAGE ORGANISÈ ************************************************************************************/
+.bg-image4{
+    background-image: url(./Assets/Images/voyage-organisé.jpg);
+    background-size: 100vw 100%;
+    height: 85vh;
+}
+.bgVoyage{
+    height: 45vh;
+}
+/* RN7 */
+.tana{
+    background-image: url(./Assets/Images/RN7/Antananarivo.jpg);
+    background-size: cover;
+}
+.ambatolampy{
+    background-image: url(./Assets/Images/RN7/Ambatolampy.jpg);
+    background-size: cover;
+}
+.antsirabe{
+    background-image: url(./Assets/Images/RN7/Antsirabe.jpg);
+    background-size: cover;
+}
+.ambositra{
+    background-image: url(./Assets/Images/RN7/Ambositra.jpg);
+    background-size: cover;
+}
+.ranomafana{
+    background-image: url(./Assets/Images/RN7/Parc-ranomafana.jpg);
+    background-size: cover;
+}
+.ambalavao{
+    background-image: url(./Assets/Images/RN7/Ambalavao.jpg);
+    background-size: cover;
+}
+.isalo{
+    background-image: url(./Assets/Images/RN7/Parc-d-isalo.jpg);
+    background-size: cover;
+}
+.ilakaka{
+    background-image: url(./Assets/Images/RN7/Ilakaka.jpg);
+    background-size: cover;
+}
+.toliara{
+    background-image: url(./Assets/Images/RN7/Toliara.jpg);
+    background-size: cover;
+}
+.ambatomilo{
+    background-image: url(./Assets/Images/RN7/Ambatomilo.jpg);
+    background-size: cover;
+}
+.ts{
+    text-shadow: 1px 3px 10px rgba(0, 0, 0, 0.699);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4em;
+}
+.x{
+    transform: translateX(-200%);
+}
+.cna{
+    animation: voyage 36s infinite ease-in-out;
+}
+@keyframes voyage {
+    0%{
+        transform: translateX(0);
+    }
+    8.333333333333334%{
+        transform: translateX(-100%);
+    }
+    16.666666666666668%{
+        transform: translateX(-200%);
+    }
+    25%{
+        transform: translateX(-300%);
+    }
+    33.333333333333336%{
+        transform: translateX(-400%);
+    }
+    41.66666666666667%{
+        transform: translateX(-500%);
+    }
+    50%{
+        transform: translateX(-600%);
+    }
+    58.33333333333334%{
+        transform: translateX(-700%);
+    }
+    66.66666666666667%{
+        transform: translateX(-800%);
+    }
+    75%{
+        transform: translateX(-900%);
+    }
+    83.33333333333333%{
+        transform: translateX(-1000%);
+    }
+    91.66666666666666%{
+        transform: translateX(-1100%);
+    } 
+    100%{
+        transform: translateX(-1100%);
+    }
+
+}
+/* RN7 */
+/* Itinèraire nature circulaire */
+.morondava{
+    background-image: url(./Assets/Images/NC/Morondava.jpg);
+    background-size: cover;
+}
+.miandrivazo{
+    background-image: url(./Assets/Images/NC/Miandrivazo.jpg);
+    background-size: cover;
+}
+.tsiribihina{
+    background-image: url(./Assets/Images/NC/Belo-sur-tsiribihina.jpg);
+    background-size: cover;
+}
+.bemaraha{
+    background-image: url(./Assets/Images/NC/Parc-de-Tsingy.jpg);
+    background-size: cover;
+}
+.manja{
+    background-image: url(./Assets/Images/NC/Manja.jpg);
+    background-size: cover;
+}
+.mer{
+    background-image: url(./Assets/Images/NC/Belo-sur-mer.jpg);
+    background-size: cover;
+}
+.anja{
+    background-image: url(./Assets/Images/NC/Reserve-nature-anja.jpg);
+    background-size: cover;
+}
+.fianarantsoa{
+    background-image: url(./Assets/Images/NC/Fianarantsoa.jpg);
+    background-size: cover;
+}
+.cna1{
+    animation: voyage1 54s infinite ease-in-out;
+}
+@keyframes voyage1 {
+    0%{
+        transform: translateX(0);
+    }
+    5.555555555555556%{
+        transform: translateX(-100%);
+    }
+    11.111111111111112%{
+        transform: translateX(-200%);
+    }
+    16.666666666666668%{
+        transform: translateX(-300%);
+    }
+    22.222222222222225%{
+        transform: translateX(-400%);
+    }
+    27.777777777777782%{
+        transform: translateX(-500%);
+    }
+    33.333333333333336%{
+        transform: translateX(-600%);
+    }
+    38.88888888888889%{
+        transform: translateX(-700%);
+    }
+    44.44444444444445%{
+        transform: translateX(-800%);
+    }
+    50.00000000000001%{
+        transform: translateX(-900%);
+    }
+    55.555555555555564%{
+        transform: translateX(-1000%);
+    }
+    61.11111111111112%{
+        transform: translateX(-1100%);
+    }
+    66.66666666666667%{
+        transform: translateX(-1200%);
+    }
+    72.22222222222223%{
+        transform: translateX(-1300%);
+    }
+    77.77777777777779%{
+        transform: translateX(-1400%);
+    }
+    83.33333333333334%{
+        transform: translateX(-1500%);
+    }
+    88.8888888888889%{
+        transform: translateX(-1600%);
+    }
+    94.44444444444446%{
+        transform: translateX(-1700%);
+    }
+    100%{
+        transform: translateX(-1700%);
+    }
+    
+}
+/* Itinèraire nature circulaire */
+.aScale{
+    animation: v1 infinite 4s ease-in-out ;
+}
+ @keyframes v1 {
+    0%{
+        scale: 1;
+        border-radius: 0;
+    }
+    100%{
+        scale: 0.8;
+        border-radius: 3em;
+    }
+} 
+
+/************************************************************************************ VOYAGE ORGANISÈ ************************************************************************************/
+/************************************************************************************ RANOHIRA ************************************************************************************/
+@font-face {
+    font-family: "ranohira";
+    src: url("./police/SuezOne-Regular.ttf");
+}
+.line-right{
+    border-right: 0.5px solid black;
+}
+.line-left{
+    border-left: 0.5px solid black;
+}
+.bg-image5{
+    background-image: url(./Assets/Images/Ranohira/ranohira.jpg);
+    background-size: 100% auto;
+    background-position: center;
+    height: 85vh;
+}
+.titleRanohira{
+    font-family: ranohira;
+}
+.titleRanohira1{
+    font-family: ranohira;
+    font-size: 4em;
+}
+.bienvenu{
+    font-size: 4em;
+}
+.radius1{
+    border-radius: 5em;
+}
+
+/************************************************************************************ RANOHIRA ************************************************************************************/
+/************************************************************************************ FOUTER ************************************************************************************/
+.iconF{
+    width: 75%;
+    height: 75%;
+}
+.iconFf{
+    width: 70%;
+    height: 70%;
+}
+.iconH{
+    width: 120%;
+    height: 120%;
+}
+.ts4{
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.568);
+}
+
+/************************************************************************************ FOUTER ************************************************************************************/
+[style*="background-image"]{}
